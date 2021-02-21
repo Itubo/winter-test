@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#wholeBox {
+    width: 640px;
+    height: 640px;
+    margin: 50px auto;
+    position: relative;
+} 
+#snakeMap {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(13, 93, 117);
+    border: 20px solid rgb(10, 73, 92);
+    position: relative;
+}
+.btn  {
+    width: 640px;
+    height: 640px;
+    background-color: rgb(6, 38, 48);
+    opacity: 0.5;
+    position: absolute;
+}
+.btn button {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -25px;
+    outline: none;
+    cursor: pointer;
+}
+.star {
+    position: absolute;
+    z-index: 2;
+}
+.stop {
+    z-index: 2;
+}
+.snakeHead {
+    width: 20px;
+    height: 20px;
+    background-color: sienna;
+    border-radius: 50%;
+}
+.snakeBody {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid pink;
+}
+#score {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    color: white;
+    font-size: 25px;
+    line-height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    right: 200px;
+}
